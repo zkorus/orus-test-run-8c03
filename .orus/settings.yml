@@ -1,0 +1,13 @@
+v: 0
+orus: 0.0.0
+gate: npm test
+test_targets:
+  - name: lib
+    language: typescript
+    path: .
+    test: npm test
+roles:
+  triage: { model: haiku }
+budgets:
+  per_role:
+    triage: { minutes_per_run: 5 }

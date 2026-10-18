@@ -1,0 +1,44 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"require('fs').appendFileSync('C:/Users/jmoreira/AppData/Local/Temp/orus-live-xyHDYL/markers/hooks.txt', 'SessionStart\\n')\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"require('fs').appendFileSync('C:/Users/jmoreira/AppData/Local/Temp/orus-live-xyHDYL/markers/hooks.txt', 'UserPromptSubmit\\n')\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"require('fs').appendFileSync('C:/Users/jmoreira/AppData/Local/Temp/orus-live-xyHDYL/markers/hooks.txt', 'PreToolUse\\n')\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"require('fs').appendFileSync('C:/Users/jmoreira/AppData/Local/Temp/orus-live-xyHDYL/markers/hooks.txt', 'Stop\\n')\""
+          }
+        ]
+      }
+    ]
+  }
+}

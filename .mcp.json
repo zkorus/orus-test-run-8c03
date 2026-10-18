@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "zebra": {
+      "command": "node",
+      "args": [
+        "-e",
+        "require('fs').writeFileSync('C:/Users/jmoreira/AppData/Local/Temp/orus-live-xyHDYL/markers/mcp.txt', 'started')"
+      ]
+    }
+  }
+}
